@@ -1,13 +1,24 @@
-Password: mheducation_super_secret_key_12345678901234567890abcdefghijklmnop
-API_KEY=9d8f7a6b5c4e3d2f1a0b9c8d7e6f5a4b3c2d1e0f9876543210abcdef
-Token: xYz9AbC8dEf7GhI6jKl5MnO4pQr3StU2vWx1YzA0BcD1EfG2HiJ3
+# Simnet Test Secrets - GUARANTEED DETECTION
 
-Slack: https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXX
+# High-entropy hex strings (40+ chars)
+API_SECRET=9f8e7d6c5b4a3e2d1c0b9a8f7e6d5c4b3a2e1d0f9876543210abcdefedcba
+SECRET_KEY=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6A7B8C9D0E1F2
+SIMNET_TOKEN=x9Y8z7A6b5C4d3E2f1G0h9I8j7K6l5M4n3O2p1Q0rR9sS8tT7uU6vV5wW4xX3yY2zZ1
 
------BEGIN RSA PRIVATE KEY-----
-MIIEpAIBAAKCAQEAuqzT0mheducation1234567890abcdefghijklmnopqrst
-uvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrs
-tuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqr
------END RSA PRIVATE KEY-----
+# Complex password
+DB_PASSWORD=P@ssw0rd!S1mn3t#2024$Sup3rS3cur3%T3st&C0mpl3x*MH3duc@t10n
 
-GitHub: ghp_16C7e42F292c6912E7710c838347Ae178B4a
+# Connection string (embedded password)
+DATABASE_URL=postgresql://simnet_admin:C0mpl3xP@ssw0rd2024!Secure@simnet-db.mheducation.com:5432/production
+
+# Slack webhook
+SLACK_WEBHOOK=https://hooks.slack.com/services/T1234567890/B1234567890/abcdefghijklmnopqrstuvwx123456
+
+# Private key - GUARANTEED DETECTION
+PRIVATE_KEY="-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEA1simnettest234567890abcdefghijklmnopqrstuvwxyzABCDEF
+GHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKL
+MNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQR
+STUVWXYZabcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWX
+YZabcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ1234
+-----END RSA PRIVATE KEY-----"
